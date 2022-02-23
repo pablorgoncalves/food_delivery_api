@@ -1,0 +1,1527 @@
+{
+  "users": [
+    {
+      "email": "kenzinho@mail.com",
+      "password": "$2a$10$YQiiz0ANVwIgpOjYXPxc0O9H2XeX3m8OoY1xk7OGgxTnOJnsZU7FO",
+      "name": "Kenzinho",
+      "id": 1,
+      "address": "Rua Virando a esquina, 250",
+      "admin": false
+    },
+    {
+      "email": "admin@admin.com",
+      "password": "$2a$10$UBZHb69ZD9gAMwWKsL5azuNiDkZxa5P82DqtzqTDP9antI.cQyYJO",
+      "name": "Admin",
+      "id": 2,
+      "address": "Travessa do papoco",
+      "admin": true
+    },
+    {
+      "email": "gabriela.m.leal37@gmail.com",
+      "password": "$2a$10$RarU.NbqsGaWZdVgiSgGIuQ8aSpoenmZsI.VOB0EQMOf7ZlhvqB0i",
+      "name": "Gabriela Leal",
+      "address": "Rua Xavier da Silveira - 4532",
+      "id": 3
+    },
+    {
+      "email": "pablo@mail.com",
+      "password": "$2a$10$MZx5BSRP3b9GsabgDWfta..AenRn8V1.V8c42Dw5ttkEjILK71aX.",
+      "name": "Pablo",
+      "address": "Travessa bom jardim, 77",
+      "id": 4
+    },
+    {
+      "email": "hirton@mail.com",
+      "password": "$2a$10$1jDKGYmeRDpvLWrStAuWGu8zm3Gz3ZMRwEdB5p0nHlfdV/E0G.4Gq",
+      "name": "Hirton",
+      "address": "Travessa dos coqueiros, 69",
+      "id": 5
+    },
+    {
+      "email": "sidny@mail.com",
+      "password": "$2a$10$HPGH.cMn6QTa8MH3esKwWe2tGznkX9SBuPeDwuoxwjleibtZrkIeG",
+      "name": "Sidny",
+      "address": "Favacho, 23",
+      "id": 6
+    }
+  ],
+  "cart": [
+    {
+      "category": "pecas",
+      "img": "https://s3.us-east-2.amazonaws.com/elasticbeanstalk-us-east-2-591709479475/1628545899A5cc24b4946468.png",
+      "name": "Hot Roll kani - 10und",
+      "price": 9.99,
+      "description": "peca",
+      "quantityStock": 10,
+      "quantidade": 1,
+      "userId": 3,
+      "id": "01d3a075-8ae1-4c80-9f55-20e3f7820e12"
+    },
+    {
+      "category": "pecas",
+      "img": "https://cdn.awsli.com.br/300x300/1336/1336703/produto/90227317/c414aa0e32.jpg",
+      "name": "Hot Roll camarão - 10und",
+      "price": 9.99,
+      "description": "peca",
+      "quantityStock": 10,
+      "quantidade": 1,
+      "userId": 3,
+      "id": "f6eeb242-df0f-4608-a07e-1915886a9cb9"
+    }
+  ],
+  "products": [
+    {
+      "id": 6,
+      "name": "Combinado 50 peças - Hot Roll (sabores variados)",
+      "price": 49.99,
+      "category": "combinados",
+      "description": "combinados",
+      "quantityStock": 10,
+      "img": "https://foodmagazine.com.br/imagens/receitas/receita_como_fazer_uramaki_de_salm%C3%A3o_food_service_restaurantes.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Combinado 50 peças - Hot Roll (sabores variados)",
+      "price": 49.99,
+      "category": "combinados",
+      "description": "combinados",
+      "quantityStock": 10,
+      "img": "https://foodmagazine.com.br/imagens/receitas/receita_como_fazer_uramaki_de_salm%C3%A3o_food_service_restaurantes.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Hot Roll salmão - 10und",
+      "price": 9.99,
+      "category": "pecas",
+      "description": "peca",
+      "quantityStock": 10,
+      "img": "https://foodmagazine.com.br/imagens/receitas/receita_como_fazer_uramaki_de_salm%C3%A3o_food_service_restaurantes.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Hot Roll kani - 10und",
+      "price": 9.99,
+      "category": "pecas",
+      "description": "peca",
+      "quantityStock": 10,
+      "img": "https://s3.us-east-2.amazonaws.com/elasticbeanstalk-us-east-2-591709479475/1628545899A5cc24b4946468.png"
+    },
+    {
+      "id": 10,
+      "name": "Hot Roll camarão - 10und",
+      "price": 9.99,
+      "category": "pecas",
+      "description": "peca",
+      "quantityStock": 10,
+      "img": "https://cdn.awsli.com.br/300x300/1336/1336703/produto/90227317/c414aa0e32.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Hossomaki Kani - 10und",
+      "price": 9.99,
+      "category": "pecas",
+      "description": "peca",
+      "quantityStock": 10,
+      "img": "https://zapvendas.com.br/upload/76/e4931de3025f9bdc234a9a83417163bc.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Hossomaki Camarão - 10und",
+      "price": 9.99,
+      "category": "pecas",
+      "description": "peca",
+      "quantityStock": 10,
+      "img": "https://yummmy.s3.amazonaws.com/uploads/image/file/41271/regular_111.png"
+    },
+    {
+      "id": 13,
+      "name": "Uramaki kani - 10und",
+      "price": 9.99,
+      "category": "pecas",
+      "description": "peca",
+      "quantityStock": 10,
+      "img": "https://files.deliveryturbo.com.br/stores/img__8/6180f85a78447be26acbbd43f3367d4f.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Uramaki camarão - 10und",
+      "price": 9.99,
+      "category": "pecas",
+      "description": "peca",
+      "quantityStock": 10,
+      "img": "https://oespecialista.meucatalogofacil.com/_core/_uploads/487/2021/02/2346080221fhk904kadj_thumb.jpg"
+    },
+    {
+      "id": 15,
+      "name": "Combinado 30 peças - Hot Roll (sabores variados)",
+      "price": 29.99,
+      "category": "combinados",
+      "description": "combinados",
+      "quantityStock": 10,
+      "img": "https://foodmagazine.com.br/imagens/receitas/receita_como_fazer_uramaki_de_salm%C3%A3o_food_service_restaurantes.jpg"
+    },
+    {
+      "id": 16,
+      "name": "Combinado 30 peças - Hot Roll (sabores variados)",
+      "price": 29.99,
+      "category": "combinados",
+      "description": "combinados",
+      "quantityStock": 10,
+      "img": "https://foodmagazine.com.br/imagens/receitas/receita_como_fazer_uramaki_de_salm%C3%A3o_food_service_restaurantes.jpg"
+    },
+    {
+      "id": 17,
+      "name": "Combinado 30 peças - Hossomaki (sabores variados)",
+      "price": 29.99,
+      "category": "combinados",
+      "description": "Cominado",
+      "quantityStock": 10,
+      "img": "https://acconstorage.blob.core.windows.net/acconpictures/202011111043_dccz_.jpeg"
+    },
+    {
+      "id": 18,
+      "name": "Combinado 60 peças - Hot Roll (sabores variados)",
+      "price": 59.99,
+      "category": "combinados",
+      "description": "combinados",
+      "quantityStock": 10,
+      "img": "https://foodmagazine.com.br/imagens/receitas/receita_como_fazer_uramaki_de_salm%C3%A3o_food_service_restaurantes.jpg"
+    },
+    {
+      "id": 19,
+      "name": "Combinado 60 peças - Hot Roll (sabores variados)",
+      "price": 59.99,
+      "category": "combinados",
+      "description": "combinados",
+      "quantityStock": 10,
+      "img": "https://foodmagazine.com.br/imagens/receitas/receita_como_fazer_uramaki_de_salm%C3%A3o_food_service_restaurantes.jpg"
+    },
+    {
+      "id": 20,
+      "name": "Combinado 60 peças - Hossomaki (sabores variados)",
+      "price": 59.99,
+      "category": "combinados",
+      "description": "Cominado",
+      "quantityStock": 10,
+      "img": "https://acconstorage.blob.core.windows.net/acconpictures/202011111043_dccz_.jpeg"
+    },
+    {
+      "id": 21,
+      "name": "Guaraná Antarctica lata",
+      "price": 4.99,
+      "category": "bebida",
+      "description": "guarana",
+      "quantityStock": 10,
+      "img": "https://www.hotdogdomarcio.com.br/wp-content/uploads/2020/04/kisspng-fizzy-drinks-guaran-antarctica-beer-companhia-an-guarana-5b36901536e000.8245163315303024852248-02-600x621.png"
+    },
+    {
+      "id": 22,
+      "name": "Fanta laranja lata",
+      "price": 3.99,
+      "category": "bebida",
+      "description": "fanta laranja",
+      "quantityStock": 10,
+      "img": "https://www.hotdogdomarcio.com.br/wp-content/uploads/2020/08/1529599829_57907b99d9.png"
+    },
+    {
+      "id": 23,
+      "name": "Fanta uva lata",
+      "price": 3.99,
+      "category": "bebida",
+      "description": "fanta uva",
+      "quantityStock": 10,
+      "img": "https://enxuto.com.br/media/catalog/product/cache/1/image/1200x630/9df78eab33525d08d6e5fb8d27136e95/1/0/101585_1.png"
+    },
+    {
+      "id": 24,
+      "name": "Temaki Kani",
+      "price": 19.99,
+      "category": "temaki",
+      "description": "temaki",
+      "quantityStock": 10,
+      "img": "https://s3.us-west-2.amazonaws.com/whatsmenu/production/haneisushidelivery/products/101886/img20210121172005jpg"
+    },
+    {
+      "id": 25,
+      "name": "Temaki Camarão",
+      "price": 19.99,
+      "category": "temaki",
+      "description": "temaki",
+      "quantityStock": 10,
+      "img": "https://japonesa.pedifast.com.br/wp-content/uploads/2020/07/Temaki-Camarao-600x600.jpg"
+    },
+    {
+      "id": 26,
+      "name": "Temaki Hot Salmão",
+      "price": 19.99,
+      "category": "temaki",
+      "description": "temaki",
+      "quantityStock": 10,
+      "img": "https://media-cdn.tripadvisor.com/media/photo-s/12/4f/33/08/temaki-philadelphia-hot.jpg"
+    },
+    {
+      "id": 27,
+      "name": "Temaki Hot Kani",
+      "price": 19.99,
+      "category": "temaki",
+      "description": "temaki",
+      "quantityStock": 10,
+      "img": "https://s3.us-west-2.amazonaws.com/cdn.ebayakisobaesushi/upload/thumb/hot_temaki_salmao_grelhado__27072021105108.jpeg"
+    },
+    {
+      "id": 28,
+      "name": "Temaki Hot Camarão",
+      "price": 19.99,
+      "category": "temaki",
+      "description": "temaki",
+      "quantityStock": 10,
+      "img": "https://admin.cmpedidos.com.br/foto/673/produtos/temaki-hot-philadelphia-142237.jpg"
+    },
+    {
+      "id": 29,
+      "name": "Coca-cola - 600ml",
+      "price": 7.99,
+      "category": "bebida",
+      "description": "coca 600",
+      "quantityStock": 10,
+      "img": "https://www.hotdogdomarcio.com.br/wp-content/uploads/2020/04/pngwave-Copia-02-600x621.png"
+    },
+    {
+      "id": 30,
+      "name": "Pepsi - 1L",
+      "price": 6.99,
+      "category": "bebida",
+      "description": "coca 600",
+      "quantityStock": 10,
+      "img": "https://cdn-cosmos.bluesoft.com.br/products/7892840800239"
+    },
+    {
+      "id": 31,
+      "name": "Guaraná - 1L",
+      "price": 6.99,
+      "category": "bebida",
+      "description": "coca 600",
+      "quantityStock": 10,
+      "img": "https://argolaobebidas.com.br/wp-content/uploads/2021/03/guarana_antartica_1lt.png"
+    },
+    {
+      "id": 32,
+      "name": "Suco de laranja - 300ml",
+      "price": 7.99,
+      "category": "bebida",
+      "description": "coca 600",
+      "quantityStock": 10,
+      "img": "https://s3-sa-east-1.amazonaws.com/deliveryon-uploads/products/dorabela/16_5e8cf76d9a4b0.jpg"
+    },
+    {
+      "id": 33,
+      "name": "Suco de Goiaba - 300ml",
+      "price": 5.99,
+      "category": "bebida",
+      "description": "coca 600",
+      "quantityStock": 10,
+      "img": "https://bomgostopizzeria.achouzap.com.br/wp-content/uploads/2020/06/8446082s1280h960.jpg"
+    },
+    {
+      "id": 34,
+      "name": "Suco de Maracujá - 300ml",
+      "price": 9.99,
+      "category": "bebida",
+      "description": "coca 600",
+      "quantityStock": 10,
+      "img": "https://s.cornershopapp.com/product-images/2079215.jpg?versionId=Y9wZg5oe6X36RJrTjJLlRIF8z985oQFl"
+    },
+    {
+      "id": 35,
+      "name": "Suco de Abacaxi - 300ml",
+      "price": 4.99,
+      "category": "bebida",
+      "description": "coca 600",
+      "quantityStock": 10,
+      "img": "https://cdn.awsli.com.br/600x450/1272/1272275/produto/96896670/f54d687a15.jpg"
+    }
+  ],
+  "rating": [
+    {
+      "stars": 5,
+      "review": "Eu amei!!!!",
+      "idRequest": "92b1edab-7074-4f50-aa0a-2adb8935cf75",
+      "userId": 1,
+      "id": 1,
+      "nameUser": "Kenzinho"
+    },
+    {
+      "stars": 5,
+      "review": "muito bom!",
+      "idRequest": "904711e7-586d-4212-a69a-9c003242ef56",
+      "userId": 1,
+      "id": 2,
+      "nameUser": "Kenzinho"
+    },
+    {
+      "nameUser": "Gabriela Leal",
+      "stars": 5,
+      "review": "Melhor sushi do MUNDO! Veio tudo certinho e no tempo certo! MUITO RÁPIDO!!!",
+      "idRequest": "0d5dfaae-4996-40db-93ed-2832cccebdd1",
+      "userId": 3,
+      "id": 6
+    },
+    {
+      "nameUser": "Pablo",
+      "stars": 5,
+      "review": "Que sushi incrível! Ameeeeeeeeei!",
+      "idRequest": "89b29fe9-07e3-4426-902c-4061e008dac9",
+      "userId": 4,
+      "id": 10
+    },
+    {
+      "nameUser": "Gabriela Leal",
+      "stars": 5,
+      "review": "Simplesmente maravilhoso, amei!",
+      "idRequest": "ca07873b-aa07-4b80-a589-5992da657bb4",
+      "userId": 3,
+      "id": 5
+    },
+    {
+      "nameUser": "Pablo",
+      "stars": 5,
+      "review": "Cara, simplesmente maravilhoso!",
+      "idRequest": "3525d81b-2644-4688-87b1-aba6d1e960b4",
+      "userId": 4,
+      "id": 7
+    },
+    {
+      "nameUser": "Gabriela Leal",
+      "stars": 5,
+      "review": "Melhor sushi que já comi na vida!!!!!!!!",
+      "idRequest": "49067f90-d3ce-4c20-8b3f-c195a2d6bb37",
+      "userId": 3,
+      "id": 3
+    },
+    {
+      "nameUser": "Pablo",
+      "stars": 5,
+      "review": "nota 10! Melhor sushi!",
+      "idRequest": "cc826357-5f0b-409d-8f04-826c88c1bf67",
+      "userId": 4,
+      "id": 8
+    },
+    {
+      "nameUser": "Sidny",
+      "stars": 5,
+      "review": "Matou minha fome, mas quero mais pq é muito bom!",
+      "idRequest": "c54cfc8e-e0c5-4938-a92b-7447458781db",
+      "userId": 6,
+      "id": 14
+    },
+    {
+      "nameUser": "Sidny",
+      "stars": 5,
+      "review": "Boa, parabéns!",
+      "idRequest": "da5e0076-b2ac-4bd4-93fc-8c8bdf3758aa",
+      "userId": 6,
+      "id": 15
+    },
+    {
+      "nameUser": "Pablo",
+      "stars": 5,
+      "review": "Coisa maravilhosa! GOSTOSO DEMAIS!",
+      "idRequest": "a4746528-b44b-4bce-b9bd-4de0ae34bcbc",
+      "userId": 4,
+      "id": 9
+    },
+    {
+      "nameUser": "Hirton",
+      "stars": 5,
+      "review": "Cara, eu já quero pedir outro!",
+      "idRequest": "241041a2-6137-461d-80fa-ecdb6b3a8e5a",
+      "userId": 5,
+      "id": 11
+    },
+    {
+      "nameUser": "Hirton",
+      "stars": 5,
+      "review": "Melhor sushi da minha vida!",
+      "idRequest": "bba026c0-94aa-4c14-a5db-c0767f312aec",
+      "userId": 5,
+      "id": 12
+    },
+    {
+      "nameUser": "Gabriela Leal",
+      "stars": 5,
+      "review": "Cara, vou pedir mais vezes, eu adorei!",
+      "idRequest": "1c7b845d-77df-4a1e-9482-4c24b5726f89",
+      "userId": 3,
+      "id": 4
+    },   
+    {
+      "nameUser": "Sidny",
+      "stars": 5,
+      "review": "Cara, muito bom mesmo!",
+      "idRequest": "5b248421-60d1-40b2-a66e-27f0203d49a6",
+      "userId": 6,
+      "id": 16
+    },
+    {
+      "nameUser": "Hirton",
+      "stars": 5,
+      "review": "Melhor sushi, quero mais!",
+      "idRequest": "3ee9a9b0-9590-4f46-b3f4-e24d728df16b",
+      "userId": 5,
+      "id": 13
+    },
+    {
+      "nameUser": "Sidny",
+      "stars": 5,
+      "review": "Pra ser melhor, só se pedir 2x!",
+      "idRequest": "87b5ffcc-782c-4d6c-a39d-d7d6365a2a14",
+      "userId": 6,
+      "id": 17
+    }
+  ],
+  "orders": [
+    {
+      "user": {
+        "email": "kenzinho@mail.com",
+        "name": "Kenzinho",
+        "id": 1,
+        "address": "Rua Virando a esquina, 250",
+        "admin": false
+      },
+      "id": "92b1edab-7074-4f50-aa0a-2adb8935cf75",
+      "price": 2,
+      "payment": "Dinheiro",
+      "status": "Finalizado",
+      "details": [
+        {
+          "category": "pecas",
+          "img": "https://www.sabornamesa.com.br/images/receitas/pins_image/r1084-hossomaki-pin.jpg",
+          "name": "Hossomaki Salmão - 10und",
+          "price": 2,
+          "description": "peca",
+          "quantityStock": 10,
+          "quantidade": 1,
+          "userId": 1,
+          "id": "bb717f2c-df88-4135-9a44-2b67050e484d"
+        }
+      ]
+    },
+    {
+      "user": {
+        "email": "kenzinho@mail.com",
+        "name": "Kenzinho",
+        "id": 1,
+        "address": "Rua Virando a esquina, 250",
+        "admin": false
+      },
+      "id": "daf37163-3273-4926-92d6-3bb088cc2065",
+      "price": 115.91,
+      "payment": "Cartão de crédito",
+      "status": "Finalizado",
+      "details": [
+        {
+          "category": "pecas",
+          "img": "https://s3.us-east-2.amazonaws.com/elasticbeanstalk-us-east-2-591709479475/1628545899A5cc24b4946468.png",
+          "name": "Hot Roll kani - 10und",
+          "price": 9.99,
+          "description": "peca",
+          "quantityStock": 10,
+          "quantidade": 4,
+          "userId": 1,
+          "id": "d981a0c2-0ea4-4a73-a4c5-9ab27e8e6ee8"
+        },
+        {
+          "category": "pecas",
+          "img": "https://cdn.awsli.com.br/300x300/1336/1336703/produto/90227317/c414aa0e32.jpg",
+          "name": "Hot Roll camarão - 10und",
+          "price": 9.99,
+          "description": "peca",
+          "quantityStock": 10,
+          "quantidade": 1,
+          "userId": 1,
+          "id": "3e6adae8-ecc8-40c8-9e77-17ca4c59df3c"
+        },
+        {
+          "category": "bebida",
+          "img": "https://imagensemoldes.com.br/wp-content/uploads/2020/05/Lata-473-ml-Coca-Cola-PNG.png",
+          "name": "Coca-cola lata",
+          "price": 5.99,
+          "description": "coca",
+          "quantityStock": 10,
+          "quantidade": 1,
+          "userId": 1,
+          "id": "2ed8e618-706d-4000-9407-67e5fc5946bb"
+        },
+        {
+          "category": "temaki",
+          "img": "https://s3.us-west-2.amazonaws.com/whatsmenu/production/haneisushidelivery/products/101886/img20210121172005jpg",
+          "name": "Temaki Kani",
+          "price": 19.99,
+          "description": "temaki",
+          "quantityStock": 10,
+          "quantidade": 3,
+          "userId": 1,
+          "id": "b8a5dd09-8412-4837-ad5d-c7bf60b8f254"
+        }
+      ]
+    },
+    {
+      "user": {
+        "email": "kenzinho@mail.com",
+        "name": "Kenzinho",
+        "id": 1,
+        "address": "Rua Virando a esquina, 250",
+        "admin": false
+      },
+      "id": "2b75b050-492d-4878-a92f-3980ff10212a",
+      "price": 102.88999999999999,
+      "payment": "Cartão de crédito",
+      "status": "Finalizado",
+      "details": [
+        {
+          "category": "pecas",
+          "img": "https://s3.us-east-2.amazonaws.com/elasticbeanstalk-us-east-2-591709479475/1628545899A5cc24b4946468.png",
+          "name": "Hot Roll kani - 10und",
+          "price": 9.99,
+          "description": "peca",
+          "quantityStock": 10,
+          "quantidade": 2,
+          "userId": 1,
+          "id": "12aed1fc-158b-4b6d-ae06-4ec5a231520c"
+        },
+        {
+          "category": "temaki",
+          "img": "https://japonesa.pedifast.com.br/wp-content/uploads/2020/07/Temaki-Camarao-600x600.jpg",
+          "name": "Temaki Camarão",
+          "price": 19.99,
+          "description": "temaki",
+          "quantityStock": 10,
+          "quantidade": 2,
+          "userId": 1,
+          "id": "f37a5f11-e2e9-4985-8773-0a8a5fc0bf5d"
+        },
+        {
+          "category": "bebida",
+          "img": "https://s3-sa-east-1.amazonaws.com/deliveryon-uploads/products/dorabela/16_5e8cf76d9a4b0.jpg",
+          "name": "Suco de laranja - 300ml",
+          "price": 7.99,
+          "description": "coca 600",
+          "quantityStock": 10,
+          "quantidade": 2,
+          "userId": 1,
+          "id": "86bdd0c4-3981-482a-acb7-81b85ab74029"
+        },
+        {
+          "category": "bebida",
+          "img": "https://bomgostopizzeria.achouzap.com.br/wp-content/uploads/2020/06/8446082s1280h960.jpg",
+          "name": "Suco de Goiaba - 300ml",
+          "price": 5.99,
+          "description": "coca 600",
+          "quantityStock": 10,
+          "quantidade": 2,
+          "userId": 1,
+          "id": "2be5ad19-9c3f-4616-8423-db98c9d4fa8f"
+        },
+        {
+          "category": "bebida",
+          "img": "https://www.hotdogdomarcio.com.br/wp-content/uploads/2020/08/1529599829_57907b99d9.png",
+          "name": "Fanta laranja lata",
+          "price": 3.99,
+          "description": "fanta laranja",
+          "quantityStock": 10,
+          "quantidade": 1,
+          "userId": 1,
+          "id": "4d8d14d3-f260-4684-9c5b-775c013da73a"
+        },
+        {
+          "category": "bebida",
+          "img": "https://www.hotdogdomarcio.com.br/wp-content/uploads/2020/04/kisspng-fizzy-drinks-guaran-antarctica-beer-companhia-an-guarana-5b36901536e000.8245163315303024852248-02-600x621.png",
+          "name": "Guaraná Antarctica lata",
+          "price": 4.99,
+          "description": "guarana",
+          "quantityStock": 10,
+          "quantidade": 1,
+          "userId": 1,
+          "id": "630671da-cdc4-4e57-bda6-632122686d6c"
+        },
+        {
+          "category": "bebida",
+          "img": "https://imagensemoldes.com.br/wp-content/uploads/2020/05/Lata-473-ml-Coca-Cola-PNG.png",
+          "name": "Coca-cola lata",
+          "price": 5.99,
+          "description": "coca",
+          "quantityStock": 10,
+          "quantidade": 1,
+          "userId": 1,
+          "id": "8e67ad94-b9a4-4201-bc7b-fe2a1981bb2f"
+        }
+      ]
+    },
+    {
+      "user": {
+        "email": "kenzinho@mail.com",
+        "name": "Kenzinho",
+        "id": 1,
+        "address": "Rua Virando a esquina, 250",
+        "admin": false
+      },
+      "id": "904711e7-586d-4212-a69a-9c003242ef56",
+      "price": 29.97,
+      "payment": "Cartão de crédito",
+      "status": "Finalizado",
+      "details": [
+        {
+          "category": "pecas",
+          "img": "https://foodmagazine.com.br/imagens/receitas/receita_como_fazer_uramaki_de_salm%C3%A3o_food_service_restaurantes.jpg",
+          "name": "Hot Roll salmão - 10und",
+          "price": 9.99,
+          "description": "peca",
+          "quantityStock": 10,
+          "quantidade": 1,
+          "userId": 1,
+          "id": "93df99da-6920-441f-9f2c-ad99b4a9700a"
+        },
+        {
+          "category": "pecas",
+          "img": "https://s3.us-east-2.amazonaws.com/elasticbeanstalk-us-east-2-591709479475/1628545899A5cc24b4946468.png",
+          "name": "Hot Roll kani - 10und",
+          "price": 9.99,
+          "description": "peca",
+          "quantityStock": 10,
+          "quantidade": 1,
+          "userId": 1,
+          "id": "180bedd8-2311-4420-b19a-8dfa81cdc48a"
+        },
+        {
+          "category": "pecas",
+          "img": "https://zapvendas.com.br/upload/76/e4931de3025f9bdc234a9a83417163bc.jpg",
+          "name": "Hossomaki Kani - 10und",
+          "price": 9.99,
+          "description": "peca",
+          "quantityStock": 10,
+          "quantidade": 1,
+          "userId": 1,
+          "id": "317352a7-d6bf-4242-9323-ee0d5013cc8c"
+        }
+      ]
+    },
+    {
+      "user": {
+        "email": "gabriela.m.leal37@gmail.com",
+        "name": "Gabriela Leal",
+        "address": "Rua Xavier da Silveira - 4532",
+        "id": 3
+      },
+      "id": "0d5dfaae-4996-40db-93ed-2832cccebdd1",
+      "price": 28.96,
+      "payment": "Cartão de crédito",
+      "status": "Finalizado",
+      "details": [
+        {
+          "category": "pecas",
+          "img": "https://foodmagazine.com.br/imagens/receitas/receita_como_fazer_uramaki_de_salm%C3%A3o_food_service_restaurantes.jpg",
+          "name": "Hot Roll salmão - 10und",
+          "price": 9.99,
+          "description": "peca",
+          "quantityStock": 10,
+          "quantidade": 1,
+          "userId": 3,
+          "id": "ceb0d585-127c-46af-9a77-8e9361e6f4d6"
+        },
+        {
+          "category": "pecas",
+          "img": "https://s3.us-east-2.amazonaws.com/elasticbeanstalk-us-east-2-591709479475/1628545899A5cc24b4946468.png",
+          "name": "Hot Roll kani - 10und",
+          "price": 9.99,
+          "description": "peca",
+          "quantityStock": 10,
+          "quantidade": 1,
+          "userId": 3,
+          "id": "87330e58-995e-4972-952c-e166cf916a0c"
+        },
+        {
+          "category": "bebida",
+          "img": "https://www.hotdogdomarcio.com.br/wp-content/uploads/2020/04/kisspng-fizzy-drinks-guaran-antarctica-beer-companhia-an-guarana-5b36901536e000.8245163315303024852248-02-600x621.png",
+          "name": "Guaraná Antarctica lata",
+          "price": 4.99,
+          "description": "guarana",
+          "quantityStock": 10,
+          "quantidade": 1,
+          "userId": 3,
+          "id": "b9323174-e25e-41ce-8427-a388acb6a50e"
+        },
+        {
+          "category": "bebida",
+          "img": "https://www.hotdogdomarcio.com.br/wp-content/uploads/2020/08/1529599829_57907b99d9.png",
+          "name": "Fanta laranja lata",
+          "price": 3.99,
+          "description": "fanta laranja",
+          "quantityStock": 10,
+          "quantidade": 1,
+          "userId": 3,
+          "id": "0aa35606-4c05-4210-b950-4d3d2b396ebb"
+        }
+      ]
+    },
+    {
+      "user": {
+        "email": "gabriela.m.leal37@gmail.com",
+        "name": "Gabriela Leal",
+        "address": "Rua Xavier da Silveira - 4532",
+        "id": 3
+      },
+      "id": "e97ef7d3-c211-4d9d-a87e-66c41827ba0a",
+      "price": 117.96,
+      "payment": "Cartão de débito",
+      "status": "Finalizado",
+      "details": [
+        {
+          "category": "combinados",
+          "img": "https://foodmagazine.com.br/imagens/receitas/receita_como_fazer_uramaki_de_salm%C3%A3o_food_service_restaurantes.jpg",
+          "name": "Combinado 50 peças - Hot Roll (sabores variados)",
+          "price": 49.99,
+          "description": "combinados",
+          "quantityStock": 10,
+          "quantidade": 1,
+          "userId": 3,
+          "id": "ff395875-d8ab-40b5-8f7f-d1e59ab5c263"
+        },
+        {
+          "category": "combinados",
+          "img": "https://foodmagazine.com.br/imagens/receitas/receita_como_fazer_uramaki_de_salm%C3%A3o_food_service_restaurantes.jpg",
+          "name": "Combinado 30 peças - Hot Roll (sabores variados)",
+          "price": 29.99,
+          "description": "combinados",
+          "quantityStock": 10,
+          "quantidade": 2,
+          "userId": 3,
+          "id": "f2b43fc0-3777-4d91-bf3b-ff47b2f48055"
+        },
+        {
+          "category": "bebida",
+          "img": "https://www.hotdogdomarcio.com.br/wp-content/uploads/2020/04/pngwave-Copia-02-600x621.png",
+          "name": "Coca-cola - 600ml",
+          "price": 7.99,
+          "description": "coca 600",
+          "quantityStock": 10,
+          "quantidade": 1,
+          "userId": 3,
+          "id": "2ed97ac2-6498-486e-92f0-08d5483b4b13"
+        }
+      ]
+    },
+    {
+      "user": {
+        "email": "gabriela.m.leal37@gmail.com",
+        "name": "Gabriela Leal",
+        "address": "Rua Xavier da Silveira - 4532",
+        "id": 3
+      },
+      "id": "ca07873b-aa07-4b80-a589-5992da657bb4",
+      "price": 69.94999999999999,
+      "payment": "Cartão de crédito",
+      "status": "Finalizado",
+      "details": [
+        {
+          "category": "pecas",
+          "img": "https://s3.us-east-2.amazonaws.com/elasticbeanstalk-us-east-2-591709479475/1628545899A5cc24b4946468.png",
+          "name": "Hot Roll kani - 10und",
+          "price": 9.99,
+          "description": "peca",
+          "quantityStock": 10,
+          "quantidade": 1,
+          "userId": 3,
+          "id": "a25320a7-50a6-47c0-8930-66993754dfac"
+        },
+        {
+          "category": "pecas",
+          "img": "https://cdn.awsli.com.br/300x300/1336/1336703/produto/90227317/c414aa0e32.jpg",
+          "name": "Hot Roll camarão - 10und",
+          "price": 9.99,
+          "description": "peca",
+          "quantityStock": 10,
+          "quantidade": 1,
+          "userId": 3,
+          "id": "94a5403c-5fb8-4e2a-acd4-4f18cec61151"
+        },
+        {
+          "category": "pecas",
+          "img": "https://zapvendas.com.br/upload/76/e4931de3025f9bdc234a9a83417163bc.jpg",
+          "name": "Hossomaki Kani - 10und",
+          "price": 9.99,
+          "description": "peca",
+          "quantityStock": 10,
+          "quantidade": 1,
+          "userId": 3,
+          "id": "ed230a46-2aae-4f13-916c-ac2edb5bd300"
+        },
+        {
+          "category": "temaki",
+          "img": "https://media-cdn.tripadvisor.com/media/photo-s/12/4f/33/08/temaki-philadelphia-hot.jpg",
+          "name": "Temaki Hot Salmão",
+          "price": 19.99,
+          "description": "temaki",
+          "quantityStock": 10,
+          "quantidade": 1,
+          "userId": 3,
+          "id": "e038e157-ecfb-40da-a6d2-37bcd20e5cfb"
+        },
+        {
+          "category": "temaki",
+          "img": "https://s3.us-west-2.amazonaws.com/cdn.ebayakisobaesushi/upload/thumb/hot_temaki_salmao_grelhado__27072021105108.jpeg",
+          "name": "Temaki Hot Kani",
+          "price": 19.99,
+          "description": "temaki",
+          "quantityStock": 10,
+          "quantidade": 1,
+          "userId": 3,
+          "id": "1ac7df58-30f9-40c3-b784-6bf20a68ecda"
+        }
+      ]
+    },
+    {
+      "user": {
+        "email": "gabriela.m.leal37@gmail.com",
+        "name": "Gabriela Leal",
+        "address": "Rua Xavier da Silveira - 4532",
+        "id": 3
+      },
+      "id": "1c7b845d-77df-4a1e-9482-4c24b5726f89",
+      "price": 347.84000000000003,
+      "payment": "Cartão de crédito",
+      "status": "Finalizado",
+      "details": [
+        {
+          "category": "bebida",
+          "img": "https://s3-sa-east-1.amazonaws.com/deliveryon-uploads/products/dorabela/16_5e8cf76d9a4b0.jpg",
+          "name": "Suco de laranja - 300ml",
+          "price": 7.99,
+          "description": "coca 600",
+          "quantityStock": 10,
+          "quantidade": 3,
+          "userId": 3,
+          "id": "15a963e2-0994-4ce2-a836-d46f513077e6"
+        },
+        {
+          "category": "bebida",
+          "img": "https://bomgostopizzeria.achouzap.com.br/wp-content/uploads/2020/06/8446082s1280h960.jpg",
+          "name": "Suco de Goiaba - 300ml",
+          "price": 5.99,
+          "description": "coca 600",
+          "quantityStock": 10,
+          "quantidade": 4,
+          "userId": 3,
+          "id": "2f4a6191-ece2-433c-ae60-b1b1467c9c61"
+        },
+        {
+          "category": "combinados",
+          "img": "https://acconstorage.blob.core.windows.net/acconpictures/202011111043_dccz_.jpeg",
+          "name": "Combinado 60 peças - Hossomaki (sabores variados)",
+          "price": 59.99,
+          "description": "Cominado",
+          "quantityStock": 10,
+          "quantidade": 3,
+          "userId": 3,
+          "id": "4d17c729-505a-4ece-b495-4068aafb7c41"
+        },
+        {
+          "category": "temaki",
+          "img": "https://s3.us-west-2.amazonaws.com/whatsmenu/production/haneisushidelivery/products/101886/img20210121172005jpg",
+          "name": "Temaki Kani",
+          "price": 19.99,
+          "description": "temaki",
+          "quantityStock": 10,
+          "quantidade": 6,
+          "userId": 3,
+          "id": "5e8f6e44-2fe8-4a2c-869c-ef2a91acebb7"
+        }
+      ]
+    },
+    {
+      "user": {
+        "email": "gabriela.m.leal37@gmail.com",
+        "name": "Gabriela Leal",
+        "address": "Rua Xavier da Silveira - 4532",
+        "id": 3
+      },
+      "id": "49067f90-d3ce-4c20-8b3f-c195a2d6bb37",
+      "price": 249.75000000000003,
+      "payment": "Cartão de crédito",
+      "status": "Finalizado",
+      "details": [
+        {
+          "category": "pecas",
+          "img": "https://cdn.awsli.com.br/300x300/1336/1336703/produto/90227317/c414aa0e32.jpg",
+          "name": "Hot Roll camarão - 10und",
+          "price": 9.99,
+          "description": "peca",
+          "quantityStock": 10,
+          "quantidade": 3,
+          "userId": 3,
+          "id": "fcd257c6-bf3e-432a-9ae5-5f1f4ccf2783"
+        },
+        {
+          "category": "pecas",
+          "img": "https://zapvendas.com.br/upload/76/e4931de3025f9bdc234a9a83417163bc.jpg",
+          "name": "Hossomaki Kani - 10und",
+          "price": 9.99,
+          "description": "peca",
+          "quantityStock": 10,
+          "quantidade": 6,
+          "userId": 3,
+          "id": "2f578dd1-ba06-47d6-9041-3baa1e99804d"
+        },
+        {
+          "category": "pecas",
+          "img": "https://yummmy.s3.amazonaws.com/uploads/image/file/41271/regular_111.png",
+          "name": "Hossomaki Camarão - 10und",
+          "price": 9.99,
+          "description": "peca",
+          "quantityStock": 10,
+          "quantidade": 5,
+          "userId": 3,
+          "id": "65da92ed-d111-4671-8edd-b48d70b01941"
+        },
+        {
+          "category": "pecas",
+          "img": "https://oespecialista.meucatalogofacil.com/_core/_uploads/487/2021/02/2346080221fhk904kadj_thumb.jpg",
+          "name": "Uramaki camarão - 10und",
+          "price": 9.99,
+          "description": "peca",
+          "quantityStock": 10,
+          "quantidade": 10,
+          "userId": 3,
+          "id": "b387f958-09e9-47df-ac35-dbdf3689cbeb"
+        },
+        {
+          "category": "pecas",
+          "img": "https://foodmagazine.com.br/imagens/receitas/receita_como_fazer_uramaki_de_salm%C3%A3o_food_service_restaurantes.jpg",
+          "name": "Hot Roll salmão - 10und",
+          "price": 9.99,
+          "description": "peca",
+          "quantityStock": 10,
+          "quantidade": 1,
+          "userId": 3,
+          "id": "51ed3890-bb90-48a5-ac04-6ca55b1856d1"
+        }
+      ]
+    },
+    {
+      "user": {
+        "email": "pablo@mail.com",
+        "name": "Pablo",
+        "address": "Travessa bom jardim, 77",
+        "id": 4
+      },
+      "id": "89b29fe9-07e3-4426-902c-4061e008dac9",
+      "price": 29.97,
+      "payment": "Cartão de débito",
+      "status": "Finalizado",
+      "details": [
+        {
+          "category": "pecas",
+          "img": "https://cdn.awsli.com.br/300x300/1336/1336703/produto/90227317/c414aa0e32.jpg",
+          "name": "Hot Roll camarão - 10und",
+          "price": 9.99,
+          "description": "peca",
+          "quantityStock": 10,
+          "quantidade": 1,
+          "userId": 4,
+          "id": "516cf71d-6500-4467-912a-3de41e3c71b3"
+        },
+        {
+          "category": "pecas",
+          "img": "https://zapvendas.com.br/upload/76/e4931de3025f9bdc234a9a83417163bc.jpg",
+          "name": "Hossomaki Kani - 10und",
+          "price": 9.99,
+          "description": "peca",
+          "quantityStock": 10,
+          "quantidade": 1,
+          "userId": 4,
+          "id": "fb49d6f4-3d93-4b20-b1b8-be61032b2e46"
+        },
+        {
+          "category": "pecas",
+          "img": "https://s3.us-east-2.amazonaws.com/elasticbeanstalk-us-east-2-591709479475/1628545899A5cc24b4946468.png",
+          "name": "Hot Roll kani - 10und",
+          "price": 9.99,
+          "description": "peca",
+          "quantityStock": 10,
+          "quantidade": 1,
+          "userId": 4,
+          "id": "5bd18327-04e9-4906-ab1d-c06afe99d35f"
+        }
+      ]
+    },
+    {
+      "user": {
+        "email": "pablo@mail.com",
+        "name": "Pablo",
+        "address": "Travessa bom jardim, 77",
+        "id": 4
+      },
+      "id": "a4746528-b44b-4bce-b9bd-4de0ae34bcbc",
+      "price": 56.9,
+      "payment": "Cartão de crédito",
+      "status": "Finalizado",
+      "details": [
+        {
+          "category": "bebida",
+          "img": "https://www.hotdogdomarcio.com.br/wp-content/uploads/2020/04/kisspng-fizzy-drinks-guaran-antarctica-beer-companhia-an-guarana-5b36901536e000.8245163315303024852248-02-600x621.png",
+          "name": "Guaraná Antarctica lata",
+          "price": 4.99,
+          "description": "guarana",
+          "quantityStock": 10,
+          "quantidade": 3,
+          "userId": 4,
+          "id": "5b135fc0-c373-452b-9282-c5764a309907"
+        },
+        {
+          "category": "bebida",
+          "img": "https://enxuto.com.br/media/catalog/product/cache/1/image/1200x630/9df78eab33525d08d6e5fb8d27136e95/1/0/101585_1.png",
+          "name": "Fanta uva lata",
+          "price": 3.99,
+          "description": "fanta uva",
+          "quantityStock": 10,
+          "quantidade": 4,
+          "userId": 4,
+          "id": "704c4c88-6b23-4c07-8c3a-8b9285543a04"
+        },
+        {
+          "category": "bebida",
+          "img": "https://www.hotdogdomarcio.com.br/wp-content/uploads/2020/04/pngwave-Copia-02-600x621.png",
+          "name": "Coca-cola - 600ml",
+          "price": 7.99,
+          "description": "coca 600",
+          "quantityStock": 10,
+          "quantidade": 2,
+          "userId": 4,
+          "id": "e0c6f715-439f-4551-a474-5d3ce992f62e"
+        },
+        {
+          "category": "pecas",
+          "img": "https://foodmagazine.com.br/imagens/receitas/receita_como_fazer_uramaki_de_salm%C3%A3o_food_service_restaurantes.jpg",
+          "name": "Hot Roll salmão - 10und",
+          "price": 9.99,
+          "description": "peca",
+          "quantityStock": 10,
+          "quantidade": 1,
+          "userId": 4,
+          "id": "1d31c9e4-a51a-4e6d-84b3-3aadb6af21ed"
+        }
+      ]
+    },
+    {
+      "user": {
+        "email": "pablo@mail.com",
+        "name": "Pablo",
+        "address": "Travessa bom jardim, 77",
+        "id": 4
+      },
+      "id": "cc826357-5f0b-409d-8f04-826c88c1bf67",
+      "price": 173.94,
+      "payment": "Cartão de débito",
+      "status": "Finalizado",
+      "details": [
+        {
+          "category": "pecas",
+          "img": "https://files.deliveryturbo.com.br/stores/img__8/6180f85a78447be26acbbd43f3367d4f.jpg",
+          "name": "Uramaki kani - 10und",
+          "price": 9.99,
+          "description": "peca",
+          "quantityStock": 10,
+          "quantidade": 1,
+          "userId": 4,
+          "id": "285f0b90-4e20-46e9-b905-f7032db8f62a"
+        },
+        {
+          "category": "combinados",
+          "img": "https://foodmagazine.com.br/imagens/receitas/receita_como_fazer_uramaki_de_salm%C3%A3o_food_service_restaurantes.jpg",
+          "name": "Combinado 50 peças - Hot Roll (sabores variados)",
+          "price": 49.99,
+          "description": "combinados",
+          "quantityStock": 10,
+          "quantidade": 3,
+          "userId": 4,
+          "id": "0bc4b037-27b5-459d-bc5f-1ad4e3bb8934"
+        },
+        {
+          "category": "bebida",
+          "img": "https://cdn-cosmos.bluesoft.com.br/products/7892840800239",
+          "name": "Pepsi - 1L",
+          "price": 6.99,
+          "description": "coca 600",
+          "quantityStock": 10,
+          "quantidade": 2,
+          "userId": 4,
+          "id": "a34eb8fd-cfcf-4d79-b2cf-68587d4b2e53"
+        }
+      ]
+    },
+    {
+      "user": {
+        "email": "pablo@mail.com",
+        "name": "Pablo",
+        "address": "Travessa bom jardim, 77",
+        "id": 4
+      },
+      "id": "3525d81b-2644-4688-87b1-aba6d1e960b4",
+      "price": 125.89,
+      "payment": "Cartão de crédito",
+      "status": "Finalizado",
+      "details": [
+        {
+          "category": "temaki",
+          "img": "https://s3.us-west-2.amazonaws.com/cdn.ebayakisobaesushi/upload/thumb/hot_temaki_salmao_grelhado__27072021105108.jpeg",
+          "name": "Temaki Hot Kani",
+          "price": 19.99,
+          "description": "temaki",
+          "quantityStock": 10,
+          "quantidade": 2,
+          "userId": 4,
+          "id": "21d7868a-091a-4487-a991-8786933f3ef6"
+        },
+        {
+          "category": "temaki",
+          "img": "https://admin.cmpedidos.com.br/foto/673/produtos/temaki-hot-philadelphia-142237.jpg",
+          "name": "Temaki Hot Camarão",
+          "price": 19.99,
+          "description": "temaki",
+          "quantityStock": 10,
+          "quantidade": 3,
+          "userId": 4,
+          "id": "829bd0b8-b97f-4bb4-a7cd-a0cbf187f44f"
+        },
+        {
+          "category": "bebida",
+          "img": "https://www.hotdogdomarcio.com.br/wp-content/uploads/2020/08/1529599829_57907b99d9.png",
+          "name": "Fanta laranja lata",
+          "price": 3.99,
+          "description": "fanta laranja",
+          "quantityStock": 10,
+          "quantidade": 4,
+          "userId": 4,
+          "id": "514ba37c-6d40-46d3-a8f8-a493788bb276"
+        },
+        {
+          "category": "bebida",
+          "img": "https://www.hotdogdomarcio.com.br/wp-content/uploads/2020/04/kisspng-fizzy-drinks-guaran-antarctica-beer-companhia-an-guarana-5b36901536e000.8245163315303024852248-02-600x621.png",
+          "name": "Guaraná Antarctica lata",
+          "price": 4.99,
+          "description": "guarana",
+          "quantityStock": 10,
+          "quantidade": 2,
+          "userId": 4,
+          "id": "35b1adb5-2207-4a68-9b9c-62809c98eafc"
+        }
+      ]
+    },
+    {
+      "user": {
+        "email": "hirton@mail.com",
+        "name": "Hirton",
+        "address": "Travessa dos coqueiros, 69",
+        "id": 5
+      },
+      "id": "241041a2-6137-461d-80fa-ecdb6b3a8e5a",
+      "price": 29.97,
+      "payment": "Cartão de crédito",
+      "status": "Finalizado",
+      "details": [
+        {
+          "category": "pecas",
+          "img": "https://s3.us-east-2.amazonaws.com/elasticbeanstalk-us-east-2-591709479475/1628545899A5cc24b4946468.png",
+          "name": "Hot Roll kani - 10und",
+          "price": 9.99,
+          "description": "peca",
+          "quantityStock": 10,
+          "quantidade": 1,
+          "userId": 5,
+          "id": "ee980ac7-f650-4d8d-8dfc-9dd91b54d051"
+        },
+        {
+          "category": "pecas",
+          "img": "https://cdn.awsli.com.br/300x300/1336/1336703/produto/90227317/c414aa0e32.jpg",
+          "name": "Hot Roll camarão - 10und",
+          "price": 9.99,
+          "description": "peca",
+          "quantityStock": 10,
+          "quantidade": 1,
+          "userId": 5,
+          "id": "38817203-3c7d-48de-9450-0d771faa9246"
+        },
+        {
+          "category": "pecas",
+          "img": "https://oespecialista.meucatalogofacil.com/_core/_uploads/487/2021/02/2346080221fhk904kadj_thumb.jpg",
+          "name": "Uramaki camarão - 10und",
+          "price": 9.99,
+          "description": "peca",
+          "quantityStock": 10,
+          "quantidade": 1,
+          "userId": 5,
+          "id": "aa0110cd-1428-4be3-8d72-ca375c53f6d5"
+        }
+      ]
+    },
+    {
+      "user": {
+        "email": "hirton@mail.com",
+        "name": "Hirton",
+        "address": "Travessa dos coqueiros, 69",
+        "id": 5
+      },
+      "id": "bba026c0-94aa-4c14-a5db-c0767f312aec",
+      "price": 113.97,
+      "payment": "Cartão de crédito",
+      "status": "Finalizado",
+      "details": [
+        {
+          "category": "combinados",
+          "img": "https://foodmagazine.com.br/imagens/receitas/receita_como_fazer_uramaki_de_salm%C3%A3o_food_service_restaurantes.jpg",
+          "name": "Combinado 50 peças - Hot Roll (sabores variados)",
+          "price": 49.99,
+          "description": "combinados",
+          "quantityStock": 10,
+          "quantidade": 1,
+          "userId": 5,
+          "id": "ab2e1ad3-55b4-4f60-a117-ff9c5bc3f979"
+        },
+        {
+          "category": "combinados",
+          "img": "https://foodmagazine.com.br/imagens/receitas/receita_como_fazer_uramaki_de_salm%C3%A3o_food_service_restaurantes.jpg",
+          "name": "Combinado 60 peças - Hot Roll (sabores variados)",
+          "price": 59.99,
+          "description": "combinados",
+          "quantityStock": 10,
+          "quantidade": 1,
+          "userId": 5,
+          "id": "4b9f03b2-5dc4-49f6-a682-a8b9e2732c31"
+        },
+        {
+          "category": "bebida",
+          "img": "https://www.hotdogdomarcio.com.br/wp-content/uploads/2020/08/1529599829_57907b99d9.png",
+          "name": "Fanta laranja lata",
+          "price": 3.99,
+          "description": "fanta laranja",
+          "quantityStock": 10,
+          "quantidade": 1,
+          "userId": 5,
+          "id": "efaa3ea6-cb23-472a-a742-634a26b6efc4"
+        }
+      ]
+    },
+    {
+      "user": {
+        "email": "hirton@mail.com",
+        "name": "Hirton",
+        "address": "Travessa dos coqueiros, 69",
+        "id": 5
+      },
+      "id": "3ee9a9b0-9590-4f46-b3f4-e24d728df16b",
+      "price": 163.87,
+      "payment": "Cartão de débito",
+      "status": "Finalizado",
+      "details": [
+        {
+          "category": "temaki",
+          "img": "https://s3.us-west-2.amazonaws.com/cdn.ebayakisobaesushi/upload/thumb/hot_temaki_salmao_grelhado__27072021105108.jpeg",
+          "name": "Temaki Hot Kani",
+          "price": 19.99,
+          "description": "temaki",
+          "quantityStock": 10,
+          "quantidade": 2,
+          "userId": 5,
+          "id": "8ef68ea7-d1b9-4ccc-ba08-c9f491645e93"
+        },
+        {
+          "category": "temaki",
+          "img": "https://admin.cmpedidos.com.br/foto/673/produtos/temaki-hot-philadelphia-142237.jpg",
+          "name": "Temaki Hot Camarão",
+          "price": 19.99,
+          "description": "temaki",
+          "quantityStock": 10,
+          "quantidade": 3,
+          "userId": 5,
+          "id": "cfc006da-5be9-4a8d-a19a-eae04e6f4cd0"
+        },
+        {
+          "category": "bebida",
+          "img": "https://www.hotdogdomarcio.com.br/wp-content/uploads/2020/04/pngwave-Copia-02-600x621.png",
+          "name": "Coca-cola - 600ml",
+          "price": 7.99,
+          "description": "coca 600",
+          "quantityStock": 10,
+          "quantidade": 8,
+          "userId": 5,
+          "id": "869851f7-b646-4a14-b38f-713be212103f"
+        }
+      ]
+    },
+    {
+      "user": {
+        "email": "sidny@mail.com",
+        "name": "Sidny",
+        "address": "Favacho, 23",
+        "id": 6
+      },
+      "id": "c54cfc8e-e0c5-4938-a92b-7447458781db",
+      "price": 65.98,
+      "payment": "Cartão de débito",
+      "status": "Finalizado",
+      "details": [
+        {
+          "category": "combinados",
+          "img": "https://foodmagazine.com.br/imagens/receitas/receita_como_fazer_uramaki_de_salm%C3%A3o_food_service_restaurantes.jpg",
+          "name": "Combinado 60 peças - Hot Roll (sabores variados)",
+          "price": 59.99,
+          "description": "combinados",
+          "quantityStock": 10,
+          "quantidade": 1,
+          "userId": 6,
+          "id": "c32fcc14-9c39-4024-8cd6-ca77a1783490"
+        },
+        {
+          "category": "bebida",
+          "img": "https://bomgostopizzeria.achouzap.com.br/wp-content/uploads/2020/06/8446082s1280h960.jpg",
+          "name": "Suco de Goiaba - 300ml",
+          "price": 5.99,
+          "description": "coca 600",
+          "quantityStock": 10,
+          "quantidade": 1,
+          "userId": 6,
+          "id": "2054cb19-02e1-46b0-8780-cdc89b6f5c5e"
+        }
+      ]
+    },
+    {
+      "user": {
+        "email": "sidny@mail.com",
+        "name": "Sidny",
+        "address": "Favacho, 23",
+        "id": 6
+      },
+      "id": "da5e0076-b2ac-4bd4-93fc-8c8bdf3758aa",
+      "price": 39.97,
+      "payment": "Cartão de crédito",
+      "status": "Finalizado",
+      "details": [
+        {
+          "category": "temaki",
+          "img": "https://s3.us-west-2.amazonaws.com/whatsmenu/production/haneisushidelivery/products/101886/img20210121172005jpg",
+          "name": "Temaki Kani",
+          "price": 19.99,
+          "description": "temaki",
+          "quantityStock": 10,
+          "quantidade": 1,
+          "userId": 6,
+          "id": "30846302-9cfb-4357-81cd-72af86eb46f0"
+        },
+        {
+          "category": "pecas",
+          "img": "https://s3.us-east-2.amazonaws.com/elasticbeanstalk-us-east-2-591709479475/1628545899A5cc24b4946468.png",
+          "name": "Hot Roll kani - 10und",
+          "price": 9.99,
+          "description": "peca",
+          "quantityStock": 10,
+          "quantidade": 1,
+          "userId": 6,
+          "id": "c8af7d6d-3688-4a8e-894b-5d015621ecf5"
+        },
+        {
+          "category": "pecas",
+          "img": "https://cdn.awsli.com.br/300x300/1336/1336703/produto/90227317/c414aa0e32.jpg",
+          "name": "Hot Roll camarão - 10und",
+          "price": 9.99,
+          "description": "peca",
+          "quantityStock": 10,
+          "quantidade": 1,
+          "userId": 6,
+          "id": "c3a1514b-7b74-45c3-a34d-40c36eb98695"
+        }
+      ]
+    },
+    {
+      "user": {
+        "email": "sidny@mail.com",
+        "name": "Sidny",
+        "address": "Favacho, 23",
+        "id": 6
+      },
+      "id": "5b248421-60d1-40b2-a66e-27f0203d49a6",
+      "price": 99.96,
+      "payment": "Cartão de débito",
+      "status": "Finalizado",
+      "details": [
+        {
+          "category": "temaki",
+          "img": "https://japonesa.pedifast.com.br/wp-content/uploads/2020/07/Temaki-Camarao-600x600.jpg",
+          "name": "Temaki Camarão",
+          "price": 19.99,
+          "description": "temaki",
+          "quantityStock": 10,
+          "quantidade": 1,
+          "userId": 6,
+          "id": "157b2a70-ebd5-4771-a734-efc97edb8df2"
+        },
+        {
+          "category": "temaki",
+          "img": "https://media-cdn.tripadvisor.com/media/photo-s/12/4f/33/08/temaki-philadelphia-hot.jpg",
+          "name": "Temaki Hot Salmão",
+          "price": 19.99,
+          "description": "temaki",
+          "quantityStock": 10,
+          "quantidade": 1,
+          "userId": 6,
+          "id": "549454fc-89c2-43dd-b820-a9f3eeae67fd"
+        },
+        {
+          "category": "combinados",
+          "img": "https://foodmagazine.com.br/imagens/receitas/receita_como_fazer_uramaki_de_salm%C3%A3o_food_service_restaurantes.jpg",
+          "name": "Combinado 30 peças - Hot Roll (sabores variados)",
+          "price": 29.99,
+          "description": "combinados",
+          "quantityStock": 10,
+          "quantidade": 2,
+          "userId": 6,
+          "id": "18fe573c-d7ce-40fd-a6cd-36baf151d995"
+        }
+      ]
+    },
+    {
+      "user": {
+        "email": "sidny@mail.com",
+        "name": "Sidny",
+        "address": "Favacho, 23",
+        "id": 6
+      },
+      "id": "87b5ffcc-782c-4d6c-a39d-d7d6365a2a14",
+      "price": 45.95,
+      "payment": "Cartão de débito",
+      "status": "Finalizado",
+      "details": [
+        {
+          "category": "pecas",
+          "img": "https://files.deliveryturbo.com.br/stores/img__8/6180f85a78447be26acbbd43f3367d4f.jpg",
+          "name": "Uramaki kani - 10und",
+          "price": 9.99,
+          "description": "peca",
+          "quantityStock": 10,
+          "quantidade": 3,
+          "userId": 6,
+          "id": "5eaceeae-5fe0-4e63-a136-aaf291f275d7"
+        },
+        {
+          "category": "bebida",
+          "img": "https://s3-sa-east-1.amazonaws.com/deliveryon-uploads/products/dorabela/16_5e8cf76d9a4b0.jpg",
+          "name": "Suco de laranja - 300ml",
+          "price": 7.99,
+          "description": "coca 600",
+          "quantityStock": 10,
+          "quantidade": 2,
+          "userId": 6,
+          "id": "e82755e1-2b75-4dd1-8852-68fd9d35658e"
+        }
+      ]
+    }
+  ]
+}
